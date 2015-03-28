@@ -31,8 +31,8 @@
      id="script_common" />
   <script
      xlink:href="Bayshore.js"
-     id="script_panelSpecific"
-     type="application/ecmascript" />
+     type="application/ecmascript"
+     id="script_panelSpecific" />
   <defs
      id="defs4">
     <marker
@@ -464,8 +464,7 @@
      id="industrialTrackLayer"
      inkscape:label="Industrial Track"
      transform="translate(0,-3.9797589)"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <g
        id="g4691"
        transform="translate(430.00001,-353.53387)">
@@ -819,12 +818,14 @@
          id="TO40.N"
          d="m 520,514.0945 20,20 20,0"
          style="fill:none;stroke:#ffffff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+
          inkscape:label="#path4221"
          onclick="turnoutSegmentClicked(evt.currentTarget.id)" />
     </g>
     <g
        id="g3311"
        transform="translate(1.16e-5,39.999998)">
+
       <path
          onclick="turnoutSegmentClicked(evt.currentTarget.id)"
          inkscape:label="#path4221"
@@ -885,6 +886,7 @@
     <g
        id="g3333"
        transform="translate(1.16e-5,39.999998)">
+
       <path
          sodipodi:nodetypes="ccc"
          inkscape:connector-curvature="0"
@@ -976,6 +978,7 @@
        id="cabooseTrkPath"
        d="m 320.00001,420.56063 -100,0"
        style="fill:none;stroke:#ffffff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+
        inkscape:label="#path4221"
        onclick="cabooseTrkPath()" />
     <path
@@ -1040,6 +1043,7 @@
        id="arrivalLeadPath"
        d="m 400.00001,460.56063 -20,0 -20,-20"
        style="fill:none;stroke:#ffffff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+
        inkscape:label="#path4221"
        onclick="arrivalLeadPath()" />
     <path
@@ -1100,6 +1104,7 @@
        inkscape:label="#path4221"
        style="fill:none;stroke:#ffffff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 930.00001,470.56063 -10,-10 -480,0"
+
        id="mainSouthPath"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
@@ -1158,6 +1163,7 @@
        inkscape:label="#path4221"
        style="fill:none;stroke:#ffffff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 200.00001,300.56063 -80,0"
+
        id="path4125"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -1174,6 +1180,7 @@
        id="arrivalNorthPath"
        d="m 600.00001,420.56063 -140.66068,0 -19.33932,20"
        style="fill:none;stroke:#ffffff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+
        inkscape:label="#path4221"
        onclick="arrivalNorthPath()" />
     <g
@@ -1238,6 +1245,7 @@
     </g>
     <g
        transform="matrix(-1,0,0,-1,760.00001,834.65513)"
+
        id="g3414">
       <path
          sodipodi:nodetypes="ccc"
@@ -1245,11 +1253,13 @@
          id="TO23.N"
          d="m 440,414.0945 -20,0 -20,-20"
          style="opacity:0.25;fill:none;stroke:#ffffff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+
          inkscape:label="#path4221"
          onclick="turnoutSegmentClicked(evt.currentTarget.id)" />
       <path
          inkscape:label="#path4221"
          style="fill:none;stroke:#ffffff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+
          d="m 440,434.0945 c -13.33334,-13.33333 -26.66667,-26.66667 -40,-40"
          id="TO23.R"
          inkscape:connector-curvature="0"
@@ -1263,6 +1273,7 @@
          onclick="turnoutSegmentClicked(evt.currentTarget.id)"
          inkscape:label="#path4221"
          style="opacity:0.25;fill:none;stroke:#ffffff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+
          d="m 280,280.56063 -20,-20 -20,0"
          id="TO24.N"
          inkscape:connector-curvature="0"
@@ -1390,6 +1401,7 @@
        d="m 800,180.56063 -40,0"
        id="path3589"
        inkscape:connector-curvature="0" />
+
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1427,8 +1439,9 @@
     <a
        xlink:href="Cavanaugh.svg"
        transform="translate(-99.99999,90.466628)"
+
        id="cavanaughLink"
-       style="display:inline">
+       transform="translate(-100,50.46663)">
       <text
          onclick="alert(getElementByID(&quot;panelStatus&quot;)"
          xml:space="preserve"
@@ -1597,12 +1610,14 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="220"
        y="436.58093"
+
        id="text3282"
        sodipodi:linespacing="125%"><tspan
          id="tspan3284"
          sodipodi:role="line"
          x="220"
          y="436.58093">Caboose Trk</tspan></text>
+
     <text
        inkscape:transform-center-y="44.199212"
        sodipodi:linespacing="125%"
